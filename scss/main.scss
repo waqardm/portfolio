@@ -133,6 +133,33 @@ main {
     }
 }
 
+// Contact Page
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+
+    div {
+        font-size: 2rem;
+        border: 3px solid white;
+        padding: 1.5rem 2.5rem;
+        margin-bottom: 3rem;
+        @include easeOut;
+
+        &:hover {
+            padding: 0.5rem 1.5rem;
+            background: $secondary-color;
+            color: set-text-colour($secondary-color);
+            span {
+                color: set-text-colour($secondary-color);
+            }
+        }
+    }
+}
+
 //Button Style
 
 .btn {
