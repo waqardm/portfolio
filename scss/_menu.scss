@@ -12,7 +12,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: set-text-colour($primary-color);
+        background: black;
         @include easeOut;
     }
 
@@ -65,7 +65,7 @@
     &-nav {
         margin: 0;
         padding: 0;
-        background: darken($primary-color, 5);
+        background: darken($primary-color, 10);
         list-style-type: none;
         transform: translate3d(0, -100%,0);
         @include easeOut;
@@ -77,7 +77,7 @@
     }
 
     &-branding {
-        background: $primary-color;
+        background: $secondary-color;
         transform: translate3d(0, 100%, 0);
         @include easeOut;
 
@@ -116,9 +116,10 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: set-text-colour($primary-color);
+        color: black;
         text-decoration: none;
         @include easeOut;
+        font-weight: 400;
 
         &:hover {
             color: $secondary-color;

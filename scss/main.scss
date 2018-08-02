@@ -1,6 +1,8 @@
 @import 'config';
 @import 'menu';
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Bree+Serif');
+
 * {
     box-sizing: border-box;
 }
@@ -11,7 +13,8 @@ body {
     color: set-text-colour($primary-color);
     height: 100%;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat',
+    sans-serif;
     line-height: 1.5;
 }
 
@@ -22,15 +25,17 @@ h2,
 h3 {
     margin: 0;
     font-weight: 400;
+    font-family: 'Bree Serif', serif;
 
     &.lg-heading {
         font-size: 6rem;
+        line-height: 1.5;
     }
 
     &.sm-heading {
         margin-bottom: 2rem;
         padding: 0.2rem 1rem;
-        background: rgba(lighten($primary-color, 2), 0.5);
+        background: lighten($secondary-color, 40);
     }
 }
 
@@ -50,7 +55,7 @@ header {
 }
 
 main {
-    padding: 1rem 4rem 4rem 4rem;
+    padding: 4rem;
     min-height: calc(100vh - 60px);
 
     .icons {
@@ -58,7 +63,8 @@ main {
 
         a {
             padding: 0.4rem;
-
+            color: #000;
+            
             &:hover {
                 color: $secondary-color;
                 @include easeOut();
@@ -86,7 +92,7 @@ main {
         grid-area: bioimage;
         margin: auto;
         border-radius: 50%;
-        border: $secondary-color 3px solid;
+        border: $secondary-color 5px solid;
     }
 
     .bio {
@@ -107,7 +113,7 @@ main {
     }
 
     .job {
-        background: lighten($primary-color, 5);
+        background: lighten($secondary-color, 40);
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
     }
@@ -154,7 +160,7 @@ main {
             background: $secondary-color;
             color: set-text-colour($secondary-color);
             span {
-                color: set-text-colour($secondary-color);
+                color: black;
             }
         }
     }
@@ -167,30 +173,34 @@ main {
     padding: 0.5rem 1rem;
     border: 0;
     margin-bottom: 0.3rem;
+    text-align: center;
+    background: black;
+    color: white;
 
     &:hover {
         background: $secondary-color;
         color: set-text-color($secondary-color);
+
     }
 }
 
 .btn-dark {
     @extend .btn;
-    background: darken($primary-color, 50);
-    color: #fff;
+    // background: darken($primary-color, 50);
+    // color: #fff;
 }
 
 .btn-light {
     @extend .btn;
-    background: lighten($primary-color, 50);
-    color: #fff;
+    // background: lighten($primary-color, 50);
+    // color: #fff;
 }
 
 .main-footer {
     text-align: center;
     padding: 1rem;
-    background: darken($primary-color, 10);
-    color: set-text-color($primary-color);
+    background: $secondary-color;
+    color: #fff;
     height: 60px;
 }
 
