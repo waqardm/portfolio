@@ -43,7 +43,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    //opacity: 0.9;
     visibility: hidden;
 
     &.show {
@@ -65,7 +65,7 @@
     &-nav {
         margin: 0;
         padding: 0;
-        background: darken($primary-color, 10);
+        background: $primary-color;
         list-style-type: none;
         transform: translate3d(0, -100%,0);
         @include easeOut;
@@ -91,7 +91,7 @@
              height: 250px;
              background: url('../img/portrait.jpg');
              border-radius: 50%;
-             border: solid 3px $secondary-color;
+             border: solid 3px $primary-color;
          }
     }
 

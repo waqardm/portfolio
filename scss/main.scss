@@ -1,5 +1,6 @@
 @import 'config';
 @import 'menu';
+@import 'form';
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Bree+Serif');
 
@@ -140,6 +141,11 @@ main {
 }
 
 // Contact Page
+
+.contact-text {
+    font-size: 1.5rem;
+    text-align: center;
+}
 
 .boxes {
     display: flex;

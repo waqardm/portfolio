@@ -25,7 +25,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -41,7 +40,7 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #e6e6e6;
+    background: #fff;
     list-style-type: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
@@ -58,7 +57,7 @@
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #663399; }
+      border: solid 3px #fff; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -91,6 +90,103 @@
 
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
+
+form {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif; }
+
+.form-style-1 {
+  margin: 10px auto;
+  padding: 20px 12px 10px 20px; }
+
+.form-style-1 li {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0; }
+
+.form-style-1 label {
+  margin: 0 0 10px 0;
+  padding: 0px;
+  display: block;
+  font-weight: bold; }
+
+.form-style-1 input[type=text],
+.form-style-1 input[type=email] {
+  height: 50px; }
+
+.form-style-1 input[type=text],
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea,
+select {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid black;
+  padding: 7px;
+  margin: 0px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px; }
+
+.form-style-1 input[type=text]:focus,
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus,
+.form-style-1 select:focus {
+  -moz-box-shadow: 0 0 8px #663399;
+  -webkit-box-shadow: 0 0 8px #663399;
+  box-shadow: 0 0 8px #663399;
+  border: 1px solid #663399; }
+
+.form-style-1 .field-long {
+  width: 100%; }
+
+.form-style-1 .field-select {
+  width: 100%; }
+
+.form-style-1 .field-textarea {
+  height: 100px; }
+
+.form-style-1 input[type=submit],
+.form-style-1 input[type=button] {
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+  height: 50px;
+  background: #663399;
+  font-size: 16px;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif; }
+
+.form-style-1 input[type=submit]:hover,
+.form-style-1 input[type=button]:hover {
+  background: black;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none; }
+
+.form-style-1 .required {
+  color: #663399; }
 
 * {
   box-sizing: border-box; }
@@ -197,6 +293,10 @@ main {
       opacity: 0.5;
       border-color: #663399;
       transition: all 0.5s ease-out; }
+
+.contact-text {
+  font-size: 1.5rem;
+  text-align: center; }
 
 .boxes {
   display: flex;
