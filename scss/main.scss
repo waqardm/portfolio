@@ -142,8 +142,25 @@ main {
 
 // Contact Page
 
+.btnContactUs {
+    display: block;
+    width: 75%;
+}
+
 .contact-text {
     font-size: 1.5rem;
+    text-align: center;
+}
+
+#error-message {
+    width: 100%;
+    color: red;
+    text-align: center;
+}
+
+#success-message {
+    width: 100%;
+    color: green;
     text-align: center;
 }
 

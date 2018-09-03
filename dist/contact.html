@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="js/contact.js"></script>
     <title>Contact Me</title>
 </head>
 
@@ -52,19 +57,26 @@
             <div class="contact-text">
                 <p>Feel free to reach out to me to discuss projects or collaboration.</p>
             </div>
-            <form>
+            <div id="success-message" style="display: none;">
+                <h3>Sent your message successfully!</h3>
+            </div>
+            <div id="error-message" style="display: none;">
+                <h3>Error</h3>
+                Sorry there was an error sending your form.
+            </div>
+            <form method="post" id="form" role="form">
                 <ul class="form-style-1">
-                <li><label>Full Name<span class="required">*</span></label><input type="text" name="field1" class="field-long" placeholder="Full Name" /></li>
+                <li><label for="name">Full Name<span class="required">*</span></label><input type="text" name="name" id="name" class="field-long" placeholder="Full Name" required maxlength="30" /></li>
                 <li>
-                <label>E-mail <span class="required">*</span></label>
-                <input type="email" name="field3" class="field-long" placeholder="Email"/>
+                <label for="email">E-mail <span class="required">*</span></label>
+                <input type="email" name="email" id="email" class="field-long" placeholder="Email" required/>
                 </li>
                 <li>
-                <label>Your Message <span class="required">*</span></label>
-                <textarea name="field5" id="field5" class="field-long field-textarea" placeholder="Please leave a short message..."></textarea>
+                <label for="message">Your Message <span class="required">*</span></label>
+                <textarea name="message" id="message" class="field-long field-textarea" placeholder="Please leave a short message..." required></textarea>
                 </li>
                 <li>
-                <input type="submit" value="Submit" />
+<input class="btnContactUs" type="submit" value="Submit" id="btnContactUs">
                 </li>
                 </ul>
             </form>
