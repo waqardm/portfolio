@@ -199,7 +199,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../img/background.jpg);
+    background: url("img/background.jpg");
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {
@@ -261,7 +261,7 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'focus focus focus' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -272,8 +272,7 @@ main {
     grid-area: bio;
     font-size: 1.5rem; }
   .about-info .focus {
-    grid-area: focus;
-    width: 100%; }
+    grid-area: focus; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {

@@ -1,17 +1,22 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "My Portfolio",
-  "main": "index.js",
-  "homepage": "https://waqardm.github.io/portfolio",
+  "description": "Portfolio",
+  "main": "index.html",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/  --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waqardm/portfolio.git"
   },
   "author": "Waqar Mohammad",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waqardm/portfolio/issues"
+  },
+  "homepage": "https://github.com/waqardm/portfolio#readme",
   "dependencies": {
-    "gh-pages": "^1.2.0",
-    "node-sass": "^4.9.2"
+    "node-sass": "^4.9.3"
   }
 }
