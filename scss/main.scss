@@ -127,6 +127,95 @@ main {
 
 }
 
+// blog
+
+.blog-info {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-areas: 
+    'post1 post2'
+    'post3 post4'
+    'post5 post6';
+    grid-template-columns: repeat(2, 1fr);
+
+    .post-1 {
+        grid-area: post1;
+    }
+
+    .post-2 {
+        grid-area: post2;
+    }
+
+    .post-3 {
+        grid-area: post3;
+    }
+
+    .post-4 {
+        grid-area: post4;
+    }
+
+    .post-5 {
+        grid-area: post5;
+    }
+
+    .post-6 {
+        grid-area: post6;
+    }
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
+
+    .post {
+        background: lighten($secondary-color, 40);
+        padding: 0.5rem;
+        border-bottom: $secondary-color 5px solid;
+        cursor: pointer;
+
+        a {
+            // font-weight: bold;
+           
+            color: black;
+            &:hover {
+                cursor: pointer;
+                color: #663399;
+                text-decoration: underline;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                float: left;
+                color: white;
+                text-decoration: none;
+            }
+
+            .tags {
+                height: 25px;
+                width: 75px;
+                color: white;
+                background-color: #663399;
+                font-weight: bold;
+                margin-right: 5px;
+                text-align: center;
+            }
+        }
+
+        .post-title {
+            text-transform: uppercase;
+        }
+
+        
+
+    }
+
+}
+
 // work/projects
 
 .projects {

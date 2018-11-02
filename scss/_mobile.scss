@@ -62,6 +62,17 @@
         grid-template-columns: 1fr;
     }
 
+    .blog-info {
+        grid-template-areas: 
+        'post1'
+        'post2'
+        'post3'
+        'post4'
+        'post5'
+        'post6';
+        grid-template-columns: 1fr;
+    }
+
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }

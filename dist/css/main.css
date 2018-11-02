@@ -284,6 +284,56 @@ main {
     padding: 0.5rem;
     border-bottom: #663399 5px solid; }
 
+.blog-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: 'post1 post2' 'post3 post4' 'post5 post6';
+  grid-template-columns: repeat(2, 1fr); }
+  .blog-info .post-1 {
+    grid-area: post1; }
+  .blog-info .post-2 {
+    grid-area: post2; }
+  .blog-info .post-3 {
+    grid-area: post3; }
+  .blog-info .post-4 {
+    grid-area: post4; }
+  .blog-info .post-5 {
+    grid-area: post5; }
+  .blog-info .post-6 {
+    grid-area: post6; }
+  .blog-info .responsive {
+    width: 100%;
+    height: auto; }
+  .blog-info .post {
+    background: #ccb3e6;
+    padding: 0.5rem;
+    border-bottom: #663399 5px solid;
+    cursor: pointer; }
+    .blog-info .post a {
+      color: black; }
+      .blog-info .post a:hover {
+        cursor: pointer;
+        color: #663399;
+        text-decoration: underline; }
+    .blog-info .post ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      .blog-info .post ul li {
+        float: left;
+        color: white;
+        text-decoration: none; }
+      .blog-info .post ul .tags {
+        height: 25px;
+        width: 75px;
+        color: white;
+        background-color: #663399;
+        font-weight: bold;
+        margin-right: 5px;
+        text-align: center; }
+    .blog-info .post .post-title {
+      text-transform: uppercase; }
+
 .projects {
   display: grid;
   grid-gap: 0.7rem;
@@ -391,6 +441,9 @@ main {
       height: 150px; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-columns: 1fr; }
+  .blog-info {
+    grid-template-areas: 'post1' 'post2' 'post3' 'post4' 'post5' 'post6';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
