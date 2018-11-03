@@ -287,8 +287,8 @@ main {
 .blog-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'post1 post2' 'post3 post4' 'post5 post6';
-  grid-template-columns: repeat(2, 1fr); }
+  grid-template-areas: 'post1 post2 post3' 'post4 post5 post6';
+  grid-template-columns: repeat(3, 1fr); }
   .blog-info .post-1 {
     grid-area: post1; }
   .blog-info .post-2 {
@@ -330,9 +330,100 @@ main {
         background-color: #663399;
         font-weight: bold;
         margin-right: 5px;
-        text-align: center; }
+        text-align: center;
+        text-transform: uppercase; }
     .blog-info .post .post-title {
       text-transform: uppercase; }
+
+.article-info {
+  grid-template-columns: [full-start] minmax(1em, 1fr) [main-start] minmax(0, 56em) [main-end] minmax(1em, 1fr) [full-end];
+  grid-gap: 1em; }
+
+article .responsive {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px; }
+
+article .post {
+  grid-column: main;
+  padding: 0 5em 0 5em; }
+  article .post h1,
+  article .post h2,
+  article .post h3,
+  article .post h4,
+  article .post h5,
+  article .post h6 {
+    color: #663399; }
+  article .post h1 {
+    font-size: 2em; }
+  article .post h2 {
+    font-size: 1.75em; }
+  article .post h3 {
+    font-size: 1.5em; }
+  article .post p {
+    font-size: 1.3em; }
+  article .post a {
+    color: #663399;
+    text-decoration: underline; }
+    article .post a:hover {
+      cursor: pointer;
+      color: black;
+      text-decoration: underline; }
+  article .post ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    article .post ul li {
+      float: left;
+      color: white;
+      text-decoration: none; }
+    article .post ul .tags {
+      height: 25px;
+      width: 75px;
+      color: white;
+      background-color: #663399;
+      font-weight: bold;
+      margin-right: 5px;
+      text-align: center;
+      text-transform: uppercase; }
+  article .post .post-title {
+    text-transform: uppercase;
+    font-size: 4em;
+    color: #663399; }
+  article .post .date-published {
+    text-transform: uppercase;
+    font-weight: bold; }
+  article .post .share-icons {
+    color: #663399;
+    margin-left: 5px;
+    padding-right: 20%;
+    float: right; }
+  article .post .quote {
+    display: block;
+    background: #ccb3e6;
+    padding: 0.5rem;
+    width: 75%;
+    border-bottom: #663399 5px solid;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  article .post hr {
+    color: #663399;
+    background-color: #663399;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 3px; }
+  article .post .article-tags .tags {
+    height: 25px;
+    width: 75px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    margin-right: 5px;
+    text-align: center;
+    text-transform: uppercase; }
 
 .projects {
   display: grid;

@@ -133,10 +133,9 @@ main {
     display: grid;
     grid-gap: 30px;
     grid-template-areas: 
-    'post1 post2'
-    'post3 post4'
-    'post5 post6';
-    grid-template-columns: repeat(2, 1fr);
+    'post1 post2 post3'
+    'post4 post5 post6';
+    grid-template-columns: repeat(3, 1fr);
 
     .post-1 {
         grid-area: post1;
@@ -203,6 +202,7 @@ main {
                 font-weight: bold;
                 margin-right: 5px;
                 text-align: center;
+                text-transform: uppercase;
             }
         }
 
@@ -210,6 +210,145 @@ main {
             text-transform: uppercase;
         }
 
+        
+
+    }
+
+}
+
+// individual post
+.article-info {
+ grid-template-columns: 
+    [full-start] minmax(1em, 1fr) 
+    [main-start] minmax(0, 56em) [main-end]
+    minmax(1em, 1fr) [full-end];
+  grid-gap: 1em;
+}
+
+
+article {
+    //img
+    .responsive {
+        width: 75%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .post {
+        grid-column: main;
+        padding: 0 5em 0 5em;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+           color: #663399; 
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1.75em;
+        }
+
+        h3{
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1.3em;
+        }
+
+        a {
+            // font-weight: bold;
+           
+            color: #663399;
+            text-decoration: underline;
+            &:hover {
+                cursor: pointer;
+                color: black;
+                text-decoration: underline;
+            }
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                float: left;
+                color: white;
+                text-decoration: none;
+            }
+
+            .tags {
+                height: 25px;
+                width: 75px;
+                color: white;
+                background-color: #663399;
+                font-weight: bold;
+                margin-right: 5px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+
+        .post-title {
+            text-transform: uppercase;
+            font-size: 4em;
+            color: #663399;
+        }
+
+        .date-published {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .share-icons {
+            color: #663399;
+            margin-left: 5px;
+            padding-right: 20%;
+            float: right;
+        }
+
+        .quote {
+            display: block;
+            background: lighten($secondary-color, 40);
+            padding: 0.5rem;
+            width: 75%;
+            border-bottom: $secondary-color 5px solid;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        hr {
+            color: #663399;
+            background-color: #663399;
+            width: 50%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            height: 3px;
+        }
+
+        .article-tags {
+            .tags {
+                height: 25px;
+                width: 75px;
+                color: white;
+                background-color: black;
+                font-weight: bold;
+                margin-right: 5px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
         
 
     }
