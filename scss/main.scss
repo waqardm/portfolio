@@ -22,7 +22,9 @@ body {
 
 h1,
 h2, 
-h3 {
+h3,
+h4,
+h5, {
     margin: 0;
     font-weight: 400;
     font-family: 'Bree Serif', serif;
@@ -245,6 +247,7 @@ main {
 
         h3{
             font-size: 2em;
+            line-height: 1;
         }
 
         h4{
@@ -254,6 +257,12 @@ main {
         p {
             font-size: 1.3em;
             line-height: 1.75;
+        }
+
+        .heading-4{
+            font-size: 1.25em;
+            color: #663399;
+            font-family: 'Bree Serif', serif;
         }
 
         // ul {
@@ -308,14 +317,15 @@ main {
 
             .tags, .post-tags {
                 list-style-type: none;
-                height: 25px;
-                width: 75px;
+                height: 30px;
+                width: auto;
+                padding: 3px;
                 color: white;
                 background-color: #663399;
                 font-weight: bold;
                 margin-right: 5px;
                 text-align: center;
-                text-transform: uppercase;
+                //text-transform: uppercase;
             }
 
             .post-tags {
@@ -411,6 +421,12 @@ main {
             margin-bottom: 30px;
         }
 
+        .reading-thanks {
+            font-style: italic;
+            a {
+                text-decoration: none;
+            }
+        }
         
 
     }

@@ -214,18 +214,24 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   margin: 0;
   font-weight: 400;
   font-family: 'Bree Serif', serif; }
   h1.lg-heading,
   h2.lg-heading,
-  h3.lg-heading {
+  h3.lg-heading,
+  h4.lg-heading,
+  h5.lg-heading {
     font-size: 6rem;
     line-height: 1.5; }
   h1.sm-heading,
   h2.sm-heading,
-  h3.sm-heading {
+  h3.sm-heading,
+  h4.sm-heading,
+  h5.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: #ccb3e6; }
@@ -356,12 +362,17 @@ main {
   .article-info h2 {
     font-size: 2.5em; }
   .article-info h3 {
-    font-size: 2em; }
+    font-size: 2em;
+    line-height: 1; }
   .article-info h4 {
     font-size: 1.75em; }
   .article-info p {
     font-size: 1.3em;
     line-height: 1.75; }
+  .article-info .heading-4 {
+    font-size: 1.25em;
+    color: #663399;
+    font-family: 'Bree Serif', serif; }
   .article-info code {
     padding: 5px;
     background-color: #ccb3e6;
@@ -384,14 +395,14 @@ main {
       text-decoration: none; }
     .article-info ul#tags .tags, .article-info ul#tags .post-tags {
       list-style-type: none;
-      height: 25px;
-      width: 75px;
+      height: 30px;
+      width: auto;
+      padding: 3px;
       color: white;
       background-color: #663399;
       font-weight: bold;
       margin-right: 5px;
-      text-align: center;
-      text-transform: uppercase; }
+      text-align: center; }
     .article-info ul#tags .post-tags {
       background-color: black; }
   .article-info .post-title {
@@ -456,6 +467,10 @@ main {
     word-wrap: normal;
     margin-top: 30px;
     margin-bottom: 30px; }
+  .article-info .reading-thanks {
+    font-style: italic; }
+    .article-info .reading-thanks a {
+      text-decoration: none; }
 
 .projects {
   display: grid;
@@ -614,6 +629,22 @@ main {
       margin-bottom: 10px; }
     .article-info .article-date {
       width: 100%; }
+    .article-info ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+      .article-info ul li {
+        color: white;
+        text-decoration: none; }
+      .article-info ul .tags {
+        height: 25px;
+        width: 75px;
+        color: white;
+        background-color: #663399;
+        font-weight: bold;
+        margin-right: 5px;
+        text-align: center;
+        text-transform: uppercase; }
     .article-info .post-tags {
       margin-bottom: 3px; }
     .article-info .prettyprint {

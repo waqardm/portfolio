@@ -149,6 +149,29 @@
             width: 100%;
         }
 
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                //float: left;
+                color: white;
+                text-decoration: none;
+            }
+
+            .tags {
+                height: 25px;
+                width: 75px;
+                color: white;
+                background-color: #663399;
+                font-weight: bold;
+                margin-right: 5px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
+
         .post-tags{
             margin-bottom: 3px;
         }
