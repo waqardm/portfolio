@@ -352,13 +352,21 @@ main {
   .article-info h6 {
     color: #663399; }
   .article-info h1 {
-    font-size: 2em; }
+    font-size: 3em; }
   .article-info h2 {
-    font-size: 1.75em; }
+    font-size: 2.5em; }
   .article-info h3 {
-    font-size: 1.5em; }
+    font-size: 2em; }
+  .article-info h4 {
+    font-size: 1.75em; }
   .article-info p {
-    font-size: 1.3em; }
+    font-size: 1.3em;
+    line-height: 1.75; }
+  .article-info code {
+    padding: 5px;
+    background-color: #ccb3e6;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px; }
   .article-info a {
     color: #663399;
     text-decoration: underline; }
@@ -366,15 +374,16 @@ main {
       cursor: pointer;
       color: black;
       text-decoration: underline; }
-  .article-info ul {
+  .article-info ul#tags {
     list-style-type: none;
     margin: 0;
     padding: 0; }
-    .article-info ul li {
+    .article-info ul#tags li {
       float: left;
       color: white;
       text-decoration: none; }
-    .article-info ul .tags {
+    .article-info ul#tags .tags, .article-info ul#tags .post-tags {
+      list-style-type: none;
       height: 25px;
       width: 75px;
       color: white;
@@ -383,13 +392,15 @@ main {
       margin-right: 5px;
       text-align: center;
       text-transform: uppercase; }
+    .article-info ul#tags .post-tags {
+      background-color: black; }
   .article-info .post-title {
     text-transform: uppercase;
     font-size: 7vh;
-    color: #663399; }
+    color: #663399;
+    line-height: 1; }
   .article-info .date-published {
-    text-transform: uppercase;
-    font-weight: bold; }
+    font-style: italic; }
   .article-info .share-icons {
     color: #663399;
     margin-left: 5px;
@@ -398,12 +409,12 @@ main {
   .article-info .quote {
     display: block;
     background: #ccb3e6;
-    padding: 1rem;
-    width: 60%;
     border-bottom: #663399 5px solid;
     margin: auto;
     margin-top: 50px;
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+    padding: 1rem;
+    width: 75%; }
     .article-info .quote .fa-quote-left {
       margin-right: 20px;
       color: #663399; }
@@ -415,26 +426,36 @@ main {
     margin-bottom: 30px;
     height: 3px; }
   .article-info .article-meta {
-    display: inline-grid;
-    grid-gap: 30px;
-    grid-template-areas: 'article-date article-tags';
-    justify-items: right;
-    grid-template-columns: repeat(2, 1fr); }
-  .article-info .article-tags .tags {
-    height: 25px;
-    width: 75px;
-    color: white;
-    background-color: black;
-    font-weight: bold;
-    margin-right: 5px;
-    text-align: center;
-    text-transform: uppercase; }
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .article-info .article-date {
+    justify-self: left; }
+  .article-info .tags-label {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-right: 10px; }
+  .article-info .article-tags {
+    justify-self: flex-end; }
+    .article-info .article-tags .tags {
+      height: 25px;
+      width: 75px;
+      color: white;
+      background-color: black;
+      font-weight: bold;
+      margin-right: 5px;
+      text-align: center;
+      text-transform: uppercase; }
   .article-info .prettyprint {
-    display: block;
     font-family: 'Source Code Pro', monospace;
     padding: 0.2rem 1rem;
     text-align: left;
-    border-bottom: #663399 5px solid; }
+    border-bottom: #ccb3e6 5px solid;
+    overflow: auto;
+    white-space: pre;
+    word-wrap: normal;
+    margin-top: 30px;
+    margin-bottom: 30px; }
 
 .projects {
   display: grid;
@@ -550,10 +571,25 @@ main {
   .article-info {
     padding: 0; }
     .article-info p {
-      font-size: 18px;
+      font-size: 20px;
       text-align: left; }
+    .article-info .tags {
+      margin-bottom: 5px; }
     .article-info .post-title {
       font-size: 30px; }
+    .article-info .prettyprint {
+      font-family: 'Source Code Pro', monospace;
+      font-size: 18px;
+      overflow: auto;
+      white-space: pre;
+      word-wrap: normal;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .article-info .quote {
+      margin: 0;
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 30px; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
@@ -562,4 +598,25 @@ main {
     margin-top: 10vh;
     font-size: 3.5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .article-info {
+    padding: 0; }
+    .article-info p {
+      font-size: 14px;
+      text-align: left; }
+    .article-info .post-title {
+      font-size: 30px;
+      line-height: 1;
+      margin-bottom: 10px; }
+    .article-info .article-date {
+      width: 100%; }
+    .article-info .post-tags {
+      margin-bottom: 3px; }
+    .article-info .prettyprint {
+      font-family: 'Source Code Pro', monospace;
+      font-size: 12px;
+      overflow: auto;
+      white-space: pre;
+      word-wrap: normal; }
+    .article-info code {
+      font-size: 14px; } }

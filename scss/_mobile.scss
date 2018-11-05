@@ -75,13 +75,36 @@
 
     .article-info {
         padding: 0;
+
         p {
-            font-size: 18px;
+            font-size: 20px;
             text-align: left;
 
         }
+
+        .tags {
+            margin-bottom: 5px;
+        }
+
         .post-title{
             font-size: 30px;
+        }
+
+        .prettyprint {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 18px;
+            overflow: auto;
+            white-space: pre;
+            word-wrap: normal;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .quote {
+            margin: 0;
+            width: 100%;
+            margin-top: 30px;
+            margin-bottom: 30px;
         }
     }
 
@@ -99,6 +122,40 @@
 
     .projects {
         grid-template-columns: 1fr;
+    }
+    .article-info {
+        padding: 0;
+
+        p {
+            font-size: 14px;
+            text-align: left;
+
+        }
+        .post-title{
+            font-size: 30px;
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        .article-date{
+            width: 100%;
+        }
+
+        .post-tags{
+            margin-bottom: 3px;
+        }
+
+        .prettyprint {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 12px;
+            overflow: auto;
+            white-space: pre;
+            word-wrap: normal;
+        }
+
+        code {
+            font-size: 14px;
+        }
     }
 
 }
