@@ -7,6 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
         crossorigin="anonymous">
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=css&amp;skin=sunburst"></script>
+
+
     <link rel="stylesheet" href="css/main.css">
     <title>About Me</title>
 </head>
@@ -51,22 +54,24 @@
             Follow along my coding journey, thoughts, and more through my posts below.
         </h2>
         
-        <article>
-                            <img class="responsive" src="https://via.placeholder.com/700x300" alt="">
+        <img class="responsive" src="https://via.placeholder.com/700x300" alt="">
         <div class="article-info">
             <div class="post post-1">
                 <h2 class="post-title">Coding Bytes: Part 2 — Data Types, Operators & Syntax</h2>
-                    <div class="article-date">
-                        <p class="date-published">Date Published: 25 October 2018</p>
-                    </div>
-                    <div class="article-tags">
-                        <ul>
-                            <li class="tags">html</li>
-                            <li class="tags">css</li>
-                        </ul>
-                    </div>
-                    <br><hr>
+                        <div class="article-meta">
+                            <div class="article-date">
+                                <p class="date-published">Date Published: 25 October 2018</p>
+                            </div>
+                            <div class="article-tags">
+                                <ul>
+                                    <li class="tags">html</li>
+                                    <li class="tags">css</li>
+                                </ul>
+                            </div>
+                        </div>
+                    <hr>
                 <div>
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce ut. Pellentesque adipiscing commodo elit at
                     imperdiet dui accumsan. Senectus et netus et malesuada fames. Amet commodo nulla facilisi nullam vehicula ipsum.
@@ -84,8 +89,8 @@
                     vestibulum lectus mauris ultrices eros. Elementum curabitur vitae nunc sed velit dignissim sodales ut. Turpis nunc eget
                     lorem dolor sed. Pretium nibh ipsum consequat nisl vel pretium.</p>
 
-                    <div class="quote">Pulvinar etiam non quam lacus suspendisse faucibus. Aenean pharetra magna ac placerat
-                    vestibulum lectus mauris ultrices eros</div>
+                   <p class="quote"><i class="fas fa-2x fa-quote-left"></i>"Pulvinar etiam non quam lacus suspendisse faucibus. Aenean pharetra magna ac placerat
+                    vestibulum lectus mauris ultrices eros"</p>
                     
                     <h2>Heading 2</h2>
                     
@@ -100,7 +105,16 @@
                     lorem dolor sed. Habitasse platea dictumst quisque sagittis purus. Porttitor rhoncus dolor purus non enim praesent
                     elementum.</p>
                     
-                    <h3>Heading 3</h3>
+<pre class="prettyprint lang-javascript">
+&lt;script&gt;
+    $(document).ready(function(){
+        setTimeout(function(){
+            console.log('deleting cookie');
+            $.cookie('cookie',null,{domain:document.domain});
+        },1000);
+    });
+&lt;/script&gt;
+</pre>
 
                     <p>Sollicitudin aliquam ultrices sagittis orci a scelerisque. Amet venenatis urna cursus eget nunc. Nulla facilisi cras
                     fermentum odio eu feugiat. Nulla facilisi etiam dignissim diam quis enim lobortis. Orci ac auctor augue mauris augue.
@@ -122,7 +136,6 @@
                 
             </div>
         </div>
-        </article>
     </main>
     <footer class="main-footer">
         Copyright &copy 2018

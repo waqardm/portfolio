@@ -2,7 +2,7 @@
 @import 'menu';
 @import 'form';
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Montserrat|Bree+Serif');
 
 * {
     box-sizing: border-box;
@@ -14,8 +14,7 @@ body {
     color: set-text-colour($primary-color);
     height: 100%;
     margin: 0;
-    font-family: 'Montserrat',
-    sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
 }
 
@@ -216,29 +215,20 @@ main {
 
 }
 
+
 // individual post
-.article-info {
- grid-template-columns: 
-    [full-start] minmax(1em, 1fr) 
-    [main-start] minmax(0, 56em) [main-end]
-    minmax(1em, 1fr) [full-end];
-  grid-gap: 1em;
-}
 
-
-article {
     //img
     .responsive {
-        width: 75%;
+        width: 100%;
         height: auto;
         display: block;
         margin: 0 auto;
         margin-bottom: 50px;
     }
 
-    .post {
-        grid-column: main;
-        padding: 0 5em 0 5em;
+    .article-info {
+        padding: 0 3em 0 3em;
 
         h1,
         h2,
@@ -302,7 +292,7 @@ article {
 
         .post-title {
             text-transform: uppercase;
-            font-size: 4em;
+            font-size: 7vh;
             color: #663399;
         }
 
@@ -321,23 +311,41 @@ article {
         .quote {
             display: block;
             background: lighten($secondary-color, 40);
-            padding: 0.5rem;
-            width: 75%;
+            padding: 1rem;
+            width: 60%;
             border-bottom: $secondary-color 5px solid;
-            margin-top: 30px;
-            margin-bottom: 30px;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        
+
+            .fa-quote-left{
+                margin-right: 20px;
+                color: #663399;
+            }
         }
 
         hr {
             color: #663399;
             background-color: #663399;
             width: 50%;
-            margin-top: 30px;
+            margin-top: 20px;
             margin-bottom: 30px;
             height: 3px;
         }
 
+        .article-meta {
+            display: inline-grid;
+            grid-gap: 30px;
+            grid-template-areas: 
+            'article-date article-tags';
+            justify-items: right;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
         .article-tags {
+            
+
             .tags {
                 height: 25px;
                 width: 75px;
@@ -348,12 +356,18 @@ article {
                 text-align: center;
                 text-transform: uppercase;
             }
+        } 
+
+        .prettyprint {
+            display: block;
+            font-family: 'Source Code Pro', monospace;
+            padding: 0.2rem 1rem;
+            text-align: left;
+            border-bottom: $secondary-color 5px solid;
         }
-        
 
     }
 
-}
 
 // work/projects
 

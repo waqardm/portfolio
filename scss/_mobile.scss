@@ -73,6 +73,18 @@
         grid-template-columns: 1fr;
     }
 
+    .article-info {
+        padding: 0;
+        p {
+            font-size: 18px;
+            text-align: left;
+
+        }
+        .post-title{
+            font-size: 30px;
+        }
+    }
+
     .projects {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -88,4 +100,6 @@
     .projects {
         grid-template-columns: 1fr;
     }
+
 }
+
