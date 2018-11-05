@@ -597,6 +597,10 @@ main {
   main#home h1 {
     margin-top: 10vh;
     font-size: 3.5rem; }
+  main#contact h1 {
+    font-size: 3.5rem; }
+  #form {
+    width: 100%; }
   .projects {
     grid-template-columns: 1fr; }
   .article-info {
