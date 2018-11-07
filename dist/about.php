@@ -1,48 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <title>About Me</title>
-</head>
-
-<body>
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
-
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait"></div>
-            </div>
-            <ul class="menu-nav">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item current">
-                    <a href="about.html" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a href="blog/index.html" class="nav-link">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a href="portfolio.html" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
+<?php 
+$title = 'About | Waqar Mohammad';
+include('inc/header.php');
+ ?>
     <main id="">
         <h1 class="lg-heading">
             About <span class="text-secondary">Me</span>
@@ -81,10 +40,4 @@
         
         </div>
     </main>
-    <footer class="main-footer">
-        Copyright &copy 2018
-    </footer>
-</body>
-<script src="js/main.js"></script>
-
-</html>
+    <?php include('inc/footer.php'); ?>

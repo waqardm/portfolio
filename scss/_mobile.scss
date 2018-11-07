@@ -71,6 +71,14 @@
         'post5'
         'post6';
         grid-template-columns: 1fr;
+
+        .post {
+            ul {
+                .tags {
+                 margin-bottom: 5px;
+                }
+            }
+        }
     }
 
     .article-info {
@@ -79,7 +87,6 @@
         p {
             font-size: 20px;
             text-align: left;
-
         }
 
         .tags {

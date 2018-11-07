@@ -1,50 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
-        crossorigin="anonymous">
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=css&amp;skin=sunburst"></script>
-
-
-    <link rel="stylesheet" href="../css/main.css">
-    <title>Blog | Coding Bytes: Part 1 — (Intro &) Data Types</title>
-</head>
-
-<body>
-    <header>
-        <div class="menu-btn">
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-            <div class="btn-line"></div>
-        </div>
-
-        <nav class="menu">
-            <div class="menu-branding">
-                <div class="portrait"></div>
-            </div>
-            <ul class="menu-nav">
-                <li class="nav-item">
-                    <a href="../index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../about.html" class="nav-link">About Me</a>
-                </li>
-                <li class="nav-item current">
-                    <a href="blog" class="nav-link">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../portfolio.html" class="nav-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="../contact.html" class="nav-link">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<?php 
+$title = 'My Blog | Coding Bytes - Part 1';
+include('inc/header.php');
+ ?>
+ <link rel="stylesheet" href="../css/main.css"> 
+ <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=css&amp;skin=sunburst"></script>
 
     <main id="">
         <h1 class="lg-heading">
@@ -151,10 +110,4 @@
             </div>
         </div>
     </main>
-    <footer class="main-footer">
-        Copyright &copy 2018
-    </footer>
-</body>
-<script src="../js/main.js"></script>
-
-</html>
+<?php include('inc/footer.php'); ?>
