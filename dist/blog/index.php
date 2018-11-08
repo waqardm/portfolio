@@ -1,6 +1,6 @@
 <?php 
 $title = 'My Blog | Waqar Mohammad';
-include('inc/header.php');
+include('../inc/header.php');
  ?>
  <link rel="stylesheet" href="../css/main.css"> 
     <main id="">
@@ -38,24 +38,6 @@ include('inc/header.php');
                     <li class="tags">#codingBytes</li>
                 </ul>
             </div>
-
-            
-<!-- 
-            <div class="post post-3">
-                <img class="responsive" src="../img/blog/codingBytes1.png" alt="">
-                <h2 class="post-title"><a href="#">Coding Bytes: Part 1 — (Intro &) Data Types</a></h2>
-                <p>Date Published: October 31 2018</p>
-                <p>It is often said that the best way to learn is to teach something. And though I have a lot to learn still, I
-                    wanted to
-                    start a series to solidify my learning, and work through the very basics of programming.</p>
-                <ul>
-                    <li class="tags">#beginners</li>
-                    <li class="tags">#javascript</li>
-                </ul>
-            </div> -->
-            
-
         </div>
     </main>
-    <script src="../js/main.js"></script>
-    <?php include('inc/footer.php'); ?>
+    <?php include('../inc/footer.php'); ?>

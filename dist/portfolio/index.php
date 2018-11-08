@@ -1,6 +1,6 @@
 <?php 
 $title = 'Portfolio | Waqar Mohammad';
-include('inc/header.php');
+include('../inc/header.php');
  ?>
     <main id="">
         <h1 class="lg-heading">
@@ -13,7 +13,7 @@ include('inc/header.php');
         <div class="projects">
             <div class="item">
                 <a href="#">
-                    <img src="img/projects/tech_doc.png" alt="Project">
+                    <img src="../img/projects/tech_doc.png" alt="Project">
                 </a>
                 <a href="#" class="btn-light">FCC Tech Doc Challenge</a>
                 <a href="https://codepen.io/waqarm/full/MBjRON" class="btn-dark" target="_blank">
@@ -21,7 +21,7 @@ include('inc/header.php');
             </div>
             <div class="item">
                 <a href="#">
-                    <img src="img/projects/landing_page.png" alt="Project">
+                    <img src="../img/projects/landing_page.png" alt="Project">
                 </a>
                 <a href="#" class="btn-light">FCC Landing Page</a>
                 <a href="https://codepen.io/waqarm/full/VBagMo" class="btn-dark" target="_blank">
@@ -29,7 +29,7 @@ include('inc/header.php');
             </div>
             <div class="item">
                 <a href="#">
-                    <img src="img/projects/survey_form.png" alt="Project">
+                    <img src="../img/projects/survey_form.png" alt="Project">
                 </a>
                 <a href="#" class="btn-light">FCC Survey Form</a>
                 <a href="https://codepen.io/waqarm/full/XBJjNy" class="btn-dark" target="_blank">
@@ -37,7 +37,7 @@ include('inc/header.php');
             </div>
             <div class="item">
                 <a href="#">
-                    <img src="img/projects/wiki_viewer.png" alt="Project">
+                    <img src="../img/projects/wiki_viewer.png" alt="Project">
                 </a>
                 <a href="#" class="btn-light">Wiki Viewer</a>
                 <a href="https://codepen.io/waqarm/full/VxqJxW" class="btn-dark" target="_blank">
@@ -45,7 +45,7 @@ include('inc/header.php');
             </div>
             <div class="item">
                 <a href="#">
-                    <img src="img/projects/weather_app.png" alt="Project">
+                    <img src="../img/projects/weather_app.png" alt="Project">
                 </a>
                 <a href="#" class="btn-light">Weather App</a>
                 <a href="https://codepen.io/waqarm/full/NMvaYe" class="btn-dark" target="_blank">
@@ -53,7 +53,7 @@ include('inc/header.php');
             </div>
             <div class="item">
                 <a href="#">
-                    <img src="img/projects/quote_generator.png" alt="Project">
+                    <img src="../img/projects/quote_generator.png" alt="Project">
                 </a>
                 <a href="#" class="btn-light">Quote Generator</a>
                 <a href="https://codepen.io/waqarm/full/XqpNyY" class="btn-dark" target="_blank">
@@ -61,7 +61,7 @@ include('inc/header.php');
             </div>
             <div class="item">
                 <a href="#">
-                    <img src="img/projects/tribute_page.png" alt="Project">
+                    <img src="../img/projects/tribute_page.png" alt="Project">
                 </a>
                 <a href="#" class="btn-light">Tribute Page</a>
                 <a href="https://codepen.io/waqarm/full/rwyqjZ" class="btn-dark" target="_blank">
@@ -69,4 +69,4 @@ include('inc/header.php');
             </div>
         </div>
     </main>
-    <?php include('inc/footer.php'); ?>
+    <?php include('../inc/footer.php'); ?>

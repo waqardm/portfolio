@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" href="/css/main.css"> 
     <title><?php echo $title ?></title>
 </head>
 <body <?php if($title === 'Portfolio | Waqar Mohammad'){ echo 'id="bg-img"';} ?>> 
@@ -28,13 +28,13 @@
                     <a href="<?php echo BASE_URL; ?>" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="about.php" class="nav-link">About Me</a>
+                    <a href="<?php echo BASE_URL; ?>/about" class="nav-link">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a href="blog" class="nav-link">Blog</a>
+                    <a href="<?php echo BASE_URL; ?>/blog" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a href="portfolio.php" class="nav-link">Portfolio</a>
+                    <a href="<?php echo BASE_URL; ?>/portfolio" class="nav-link">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a href="contact.php" class="nav-link">Contact Me</a>
