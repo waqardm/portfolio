@@ -24,20 +24,20 @@
                 <div class="portrait"></div>
             </div>
             <ul class="menu-nav">
-                <li class="nav-item current">
+                <li <?php if($page === 'home'){ echo 'class="nav-item current"';} else { echo 'class="nav-item"';} ?>>
                     <a href="<?php echo BASE_URL; ?>" class="nav-link">Home</a>
                 </li>
-                <li class="nav-item">
+                <li <?php if($page === 'about'){ echo 'class="nav-item current"';} else { echo 'class="nav-item"';} ?>>
                     <a href="<?php echo BASE_URL; ?>/about" class="nav-link">About Me</a>
                 </li>
-                <li class="nav-item">
+                <li <?php if($page === 'blog'){ echo 'class="nav-item current"';} else { echo 'class="nav-item"';} ?>>
                     <a href="<?php echo BASE_URL; ?>/blog" class="nav-link">Blog</a>
                 </li>
-                <li class="nav-item">
+                <li <?php if($page === 'portfolio'){ echo 'class="nav-item current"';} else { echo 'class="nav-item"';} ?>>
                     <a href="<?php echo BASE_URL; ?>/portfolio" class="nav-link">Portfolio</a>
                 </li>
-                <li class="nav-item">
-                    <a href="contact.php" class="nav-link">Contact Me</a>
+                <li <?php if($page === 'contact'){ echo 'class="nav-item current"';} else { echo 'class="nav-item"';} ?>>
+                    <a href="<?php echo BASE_URL; ?>/contact" class="nav-link">Contact Me</a>
                 </li>
             </ul>
         </nav>

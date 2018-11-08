@@ -1,5 +1,6 @@
 <?php 
 $title = 'Portfolio | Waqar Mohammad';
+$page = 'home';
 include('inc/header.php');
  ?>
     <main id="home">

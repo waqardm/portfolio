@@ -1,5 +1,6 @@
 <?php 
 $title = 'About | Waqar Mohammad';
+$page = 'about';
 include('../inc/header.php');
  ?>
     <link rel="stylesheet" href="../css/main.css"> 

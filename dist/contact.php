@@ -1,5 +1,6 @@
 <?php 
 $title = 'Contact | Waqar Mohammad';
+$page = 'contact';
 include('inc/header.php');
  ?>
     

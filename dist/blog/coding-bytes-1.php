@@ -1,6 +1,7 @@
 <?php 
 $title = 'My Blog | Coding Bytes - Part 1';
-include('inc/header.php');
+$page = 'blog';
+include('../inc/header.php');
  ?>
  <link rel="stylesheet" href="../css/main.css"> 
  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=css&amp;skin=sunburst"></script>
@@ -110,4 +111,4 @@ include('inc/header.php');
             </div>
         </div>
     </main>
-<?php include('inc/footer.php'); ?>
+<?php include('../inc/footer.php'); ?>

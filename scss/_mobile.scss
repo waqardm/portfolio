@@ -181,6 +181,7 @@
 
         .post-tags{
             margin-bottom: 3px;
+            font-size: 14px;
         }
 
         .prettyprint {
@@ -194,6 +195,12 @@
         code {
             font-size: 14px;
         }
+
+        .responsive-small {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
     }
 
 }

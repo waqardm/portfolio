@@ -310,6 +310,10 @@ main {
   .blog-info .responsive {
     width: 100%;
     height: auto; }
+  .blog-info .responsive-small {
+    width: 50%;
+    height: auto;
+    margin: auto; }
   .blog-info .post {
     background: #ccb3e6;
     padding: 0.5rem;
@@ -372,6 +376,11 @@ main {
   .article-info .heading-4 {
     font-size: 1.25em;
     color: #663399;
+    font-family: 'Bree Serif', serif; }
+  .article-info .heading-5 {
+    font-size: 1em;
+    color: #000;
+    text-decoration: underline;
     font-family: 'Bree Serif', serif; }
   .article-info code {
     padding: 5px;
@@ -648,7 +657,8 @@ main {
         text-align: center;
         text-transform: uppercase; }
     .article-info .post-tags {
-      margin-bottom: 3px; }
+      margin-bottom: 3px;
+      font-size: 14px; }
     .article-info .prettyprint {
       font-family: 'Source Code Pro', monospace;
       font-size: 12px;
@@ -656,4 +666,8 @@ main {
       white-space: pre;
       word-wrap: normal; }
     .article-info code {
-      font-size: 14px; } }
+      font-size: 14px; }
+    .article-info .responsive-small {
+      width: 100%;
+      height: auto;
+      margin: auto; } }

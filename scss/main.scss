@@ -167,6 +167,12 @@ main {
         height: auto;
     }
 
+    .responsive-small {
+        width: 50%;
+        height: auto;
+        margin: auto;
+    }
+
     .post {
         background: lighten($secondary-color, 40);
         padding: 0.5rem;
@@ -262,6 +268,13 @@ main {
         .heading-4{
             font-size: 1.25em;
             color: #663399;
+            font-family: 'Bree Serif', serif;
+        }
+
+        .heading-5{
+            font-size: 1em;
+            color: #000;
+            text-decoration: underline;
             font-family: 'Bree Serif', serif;
         }
 
