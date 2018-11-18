@@ -14,7 +14,7 @@ include('../inc/header.php');
         <div class="blog-info">
             <div class="post post-1">
                 <img class="responsive" src="/img/blog/codingBytes2.png" alt="">
-                <h2 class="post-title"><a href="coding-bytes-2.php">Coding Bytes: Part 2 — Data Types, Operators, & Syntax</a></h2>
+                <h2 class="post-title"><a href="/blog/coding-bytes-2.php">Coding Bytes: Part 2 — Data Types, Operators, & Syntax</a></h2>
                 <p>Date Published: 2 November, 2018</p>
                 <p>It is often said that the best way to learn is to teach something. And though I have a lot to learn still, I
                     wanted to
@@ -28,7 +28,7 @@ include('../inc/header.php');
 
             <div class="post post-2">
                 <img class="responsive" src="/img/blog/codingBytes1.png" alt="">
-                <h2 class="post-title"><a href="coding-bytes-1.php">Coding Bytes: Part 1 — (Intro &) Data Types</a></h2>
+                <h2 class="post-title"><a href="/blog/coding-bytes-1.php">Coding Bytes: Part 1 — (Intro &) Data Types</a></h2>
                 <p>Date Published: 31 October, 2018</p>
                 <p>It is often said that the best way to learn is to teach something. And though I have a lot to learn still, I wanted
                     to

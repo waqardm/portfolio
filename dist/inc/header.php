@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/main.css"> 
     <title><?php echo $title ?></title>
 </head>
-<body <?php if($title === 'Portfolio | Waqar Mohammad'){ echo 'id="bg-img"';} ?>> 
+<body <?php if($page === 'home'){ echo 'id="bg-img"';} ?>> 
     <header>
         <div class="menu-btn">
             <div class="btn-line"></div>

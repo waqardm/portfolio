@@ -23,7 +23,7 @@ include('inc/header.php');
                 <p>Feel free to reach out to me to discuss projects or collaboration.</p>
             </div>
             <div id="success-message" style="display: none;">
-                <h3>Sent your message successfully!</h3>
+                <h3>Your message has been sent your message successfully 😃</h3>
             </div>
             <div id="error-message" style="display: none;">
                 <h3>Error</h3>
