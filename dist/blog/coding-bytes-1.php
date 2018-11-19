@@ -15,6 +15,7 @@ include('../inc/header.php');
         </h2>
         
         <img class="responsive" src="../img/blog/codingBytes1.png" alt="Header Image">
+        <div class="article-box">
         <div class="article-info">
             <div class="post post-1">
                 <h2 class="post-title">Coding Bytes: Part 1 — (Intro &) Data Types</h2>
@@ -107,7 +108,7 @@ include('../inc/header.php');
                     <p class="reading-thanks">Thanks for reading. To keep up with my coding journey come say hi 👋 on <a href="https://twitter.com/lawyerscode" target="_blank">twitter</a> or on our <code>#devNewbie</code> <a href="https://discord.gg/n7JNnK2" target="_blank">Discord server</a> where we have a friendly group of learners sharing their experiences.</a></p>
 
                 </div>
-                
+                </div>
             </div>
         </div>
     </main>

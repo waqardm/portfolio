@@ -14,7 +14,8 @@ include('../inc/header.php');
             Follow along my coding journey, thoughts, and more through my posts below.
         </h2>
         
-        <img class="responsive" src="../img/blog/codingBytes1.png" alt="Header Image">
+        <img class="responsive" src="../img/blog/codingBytes2.png" alt="Header Image">
+        <div class="article-box">
         <div class="article-info">
             <div class="post post-1">
                 <h2 class="post-title">Coding Bytes: Part 2 — Data Types, Operators, & Syntax</h2>
@@ -127,7 +128,7 @@ multiline comment
                     <p class="reading-thanks">Thanks for reading. To keep up with my coding journey come say hi 👋 on <a href="https://twitter.com/lawyerscode" target="_blank">twitter</a> or on our <code>#devNewbie</code> <a href="https://discord.gg/n7JNnK2" target="_blank">Discord server</a> where we have a friendly group of learners sharing their experiences.</a></p>
 
                 </div>
-                
+                </div>
             </div>
         </div>
     </main>

@@ -203,10 +203,11 @@ main {
                 width: auto;
                 padding: 3px;
                 color: white;
-                background-color: black;
+                background-color: #808080;
                 font-weight: bold;
                 margin-right: 5px;
                 text-align: center;
+                vertical-align: baseline;
             }
         }
 
@@ -341,7 +342,7 @@ main {
             }
 
             .post-tags {
-                background-color: black;
+                background-color: #808080;
             }
         }
 
@@ -383,7 +384,7 @@ main {
         hr {
             color: #663399;
             background-color: #663399;
-            width: 50%;
+            width: 80%;
             margin-top: 20px;
             margin-bottom: 30px;
             height: 3px;
@@ -524,7 +525,7 @@ main {
     border: 0;
     margin-bottom: 0.3rem;
     text-align: center;
-    background: black;
+    background: #808080;
     color: white;
 
     &:hover {
