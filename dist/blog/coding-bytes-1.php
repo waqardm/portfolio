@@ -20,7 +20,7 @@ include('../inc/header.php');
                 <h2 class="post-title">Coding Bytes: Part 1 — (Intro &) Data Types</h2>
                         <div class="article-meta">
                             <div class="article-date">
-                                <p class="date-published">Date Published: October 31 2018</p>
+                                <p class="date-published">Date Published: 31 October, 2018</p>
                             </div>
                             <div class="article-tags">
                                 <ul id="tags">
@@ -62,7 +62,7 @@ include('../inc/header.php');
                     <h2>Preamble...</h2>
                     <p>I will be using Javascript as the chosen programming language (don’t worry, all languages are essentially the same!),
                     just because of its ease of use and the fact that it works straight out of the box from your browser. I have made a
-                    video showing how you can do this here.</p>
+                    video showing how you can do this <a href="https://www.youtube.com/watch?v=PIxpbreS3eU&feature=youtu.be" target="_blank">here</a>.</p>
                     
                     <h4>Basic Data Types</h4>
                     <p>The most basic information we deal with is known as a ‘data type’. All this means is the type of data we are going to
@@ -104,7 +104,7 @@ include('../inc/header.php');
                     <p>There are a few more data types, but these should do fine for now as this post has become a little longer than I wanted
                     due to the intro.</p>
                     <hr>
-                    <p class="reading-thanks">Thanks for reading. To keep up with my coding journey come say hi 👋 on twitter. I can be found on <a href="https://twitter.com/lawyerscode" target="_blank">@lawyerscode</a></p>
+                    <p class="reading-thanks">Thanks for reading. To keep up with my coding journey come say hi 👋 on <a href="https://twitter.com/lawyerscode" target="_blank">twitter</a> or on our <code>#devNewbie</code> <a href="https://discord.gg/n7JNnK2" target="_blank">Discord server</a> where we have a friendly group of learners sharing their experiences.</a></p>
 
                 </div>
                 

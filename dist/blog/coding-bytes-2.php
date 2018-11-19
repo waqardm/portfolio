@@ -1,5 +1,5 @@
 <?php 
-$title = 'My Blog | Coding Bytes - Part 1';
+$title = 'My Blog | Coding Bytes - Part 2';
 $page = 'blog';
 include('../inc/header.php');
 ?>
@@ -20,7 +20,7 @@ include('../inc/header.php');
                 <h2 class="post-title">Coding Bytes: Part 2 — Data Types, Operators, & Syntax</h2>
                         <div class="article-meta">
                             <div class="article-date">
-                                <p class="date-published">Date Published: October 31 2018</p>
+                                <p class="date-published">Date Published: 2 November, 2018</p>
                             </div>
                             <div class="article-tags">
                                 <ul id="tags">
@@ -35,7 +35,7 @@ include('../inc/header.php');
                     <p style="font-style: italic;">This is part 2 in the Coding Bytes series, earlier parts are listed below:</p>
 
                     <ul>
-                        <li><a href="coding-bytes-2.php">Part 1</a></li>
+                        <li><a href="coding-bytes-1.php">Part 1</a></li>
                     </ul>
                     
                     <h4>Data Types Continued...</h4>
@@ -124,7 +124,7 @@ multiline comment
 
                     <!-- Say Hi Text  -->
                     <hr>
-                    <p class="reading-thanks">Thanks for reading. To keep up with my coding journey come say hi 👋 on twitter. I can be found on <a href="https://twitter.com/lawyerscode" target="_blank">@lawyerscode</a></p>
+                    <p class="reading-thanks">Thanks for reading. To keep up with my coding journey come say hi 👋 on <a href="https://twitter.com/lawyerscode" target="_blank">twitter</a> or on our <code>#devNewbie</code> <a href="https://discord.gg/n7JNnK2" target="_blank">Discord server</a> where we have a friendly group of learners sharing their experiences.</a></p>
 
                 </div>
                 

@@ -134,8 +134,8 @@ main {
     display: grid;
     grid-gap: 30px;
     grid-template-areas: 
-    'post1 post2'
-    'post4 post5';
+    'post3 post2'
+    'post1 post5';
     grid-template-columns: repeat(2, 1fr);
 
     .post-1 {
@@ -224,7 +224,7 @@ main {
 
     //img
     .responsive {
-        width: 100%;
+        width: 75%;
         height: auto;
         display: block;
         margin: 0 auto;
@@ -232,7 +232,6 @@ main {
     }
 
     .article-info {
-        padding: 0 3em 0 3em;
 
         h1,
         h2,

@@ -12,7 +12,19 @@ include('../inc/header.php');
             Follow along my coding journey, thoughts, and more through my posts below.
         </h2>
         <div class="blog-info">
-            <div class="post post-1">
+            <div class="post post-3">
+                <img class="responsive" src="/img/blog/codingBytes2.png" alt="">
+                <h2 class="post-title"><a href="/blog/coding-bytes-3.php">Coding Bytes: Part 3 — Javascript Functions</a></h2>
+                <p>Date Published: 19 November, 2018</p>
+                <p>Continuing with the Coding Bytes series, we take a look at Javascript functions - a basic but extremely important element of Javascript development.</p>
+                <ul>
+                    <li class="tags">#beginners</li>
+                    <li class="tags">#javascript</li>
+                    <li class="tags">#codingBytes</li>
+                </ul>
+            </div>
+
+            <div class="post post-2">
                 <img class="responsive" src="/img/blog/codingBytes2.png" alt="">
                 <h2 class="post-title"><a href="/blog/coding-bytes-2.php">Coding Bytes: Part 2 — Data Types, Operators, & Syntax</a></h2>
                 <p>Date Published: 2 November, 2018</p>
@@ -26,7 +38,7 @@ include('../inc/header.php');
                 </ul>
             </div>
 
-            <div class="post post-2">
+            <div class="post post-1">
                 <img class="responsive" src="/img/blog/codingBytes1.png" alt="">
                 <h2 class="post-title"><a href="/blog/coding-bytes-1.php">Coding Bytes: Part 1 — (Intro &) Data Types</a></h2>
                 <p>Date Published: 31 October, 2018</p>
