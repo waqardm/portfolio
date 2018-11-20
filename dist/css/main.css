@@ -622,7 +622,7 @@ main {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .blog-info {
-    grid-template-areas: 'post1' 'post2' 'post3' 'post4' 'post5' 'post6';
+    grid-template-areas: 'post6' 'post5' 'post4' 'post3' 'post2' 'post1';
     grid-template-columns: 1fr; }
     .blog-info .post ul .tags {
       margin-bottom: 5px; }
@@ -654,9 +654,9 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh;
-    font-size: 3.5rem; }
+    font-size: 3.0rem; }
   main#contact h1 {
-    font-size: 3.5rem; }
+    font-size: 3.0rem; }
   #form {
     width: 100%; }
   .projects {
@@ -664,7 +664,7 @@ main {
   .article-info {
     padding: 0; }
     .article-info p {
-      font-size: 14px;
+      font-size: 16px;
       text-align: left; }
     .article-info .post-title {
       font-size: 30px;
