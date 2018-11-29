@@ -13,8 +13,6 @@ include('../inc/header.php');
         <h2 class="sm-heading">
             Follow along my coding journey, thoughts, and more through my posts below.
         </h2>
-        
-        <img class="responsive" src="../img/blog/codingBytes3.png" alt="Header Image">
         <div class="article-box">
             <div class="article-info">
                 <div class="post post-1">
@@ -34,7 +32,7 @@ include('../inc/header.php');
                         <hr>
                     <div>
 
-                        <p style="font-style: italic;">This is part 2 in the Coding Bytes series, earlier parts are listed below:</p>
+                        <p style="font-style: italic;">This is part 3 in the Coding Bytes series, earlier parts are listed below:</p>
 
                         <ul>
                             <li><a href="coding-bytes-1">Part 1</a></li>
@@ -57,7 +55,7 @@ include('../inc/header.php');
 
                         <p>As seen in the example above, the <code>function</code> keyword is used to define a <code>function</code>. The keyword is followed by a name of your choosing but it is normally good practice to describe what the function does - more on this below.</p>
 
-                        <p>After naming the function we have the <code>parameters</code> in parentheses <code>( )</code> followed by our statment in curly braces <code>{ }</code>. You can have upto 255 <code>parameters</code> defined seperated by a comma. <code>Parameters</code> are similar to <code>placeholders</code> wherein the function knows to look for these to perform its intended use. You may encounter the term <code>arguments</code> used interchangebly, but there is a slight difference, which is better explained in an example.</p>
+                        <p>After naming the function we have the <code>parameters</code> in parentheses <code>( )</code> followed by our statement in curly braces <code>{ }</code>. You can have up to 255 <code>parameters</code> defined seperated by a comma. <code>Parameters</code> are similar to <code>placeholders</code> wherein the function knows to look for these to perform its intended use. You may encounter the term <code>arguments</code> used inter-changeably, but there is a slight difference, which is better explained in an example.</p>
 
                         <p>ℹ️ <span style="font-style: italic;">If you are using Chrome, you can try following along in the <a href="https://www.youtube.com/watch?v=PIxpbreS3eU&feature=youtu.be" target="_blank">console</a>.</span></p>
 
@@ -71,7 +69,7 @@ include('../inc/header.php');
     &lt;/script&gt;
     </pre>
 
-                        <p>In the example, our <code>function</code> is named <code>area</code> and the <code>parameters</code> are <code>length, width</code>. You can see a <code>return</code> statement which stops the execution of the function and tells the function what we are expecting to see as a response. In the statement, we are asking for the <code>length</code> and <code>width</code> to be mulitplied. In short, the task of our <code>function</code> is to multiply the <code>parameters</code>.</p>
+                        <p>In the example, our <code>function</code> is named <code>area</code> and the <code>parameters</code> are <code>length, width</code>. You can see a <code>return</code> statement which stops the execution of the function and tells the function what we are expecting to see as a response. In the statement, we are asking for the <code>length</code> and <code>width</code> to be multiplied. In short, the task of our <code>function</code> is to multiply the <code>parameters</code>.</p>
 
                         
                         <h4>Invoking a Function</h4>
@@ -84,10 +82,10 @@ include('../inc/header.php');
       area(10, 5);
     &lt;/script&gt;
     </pre>
-                        <p>As you can see, we call <code>area</code> but you will notice the <code>10,5</code> in the <code>()</code>. The two figures represent the <code>length, width</code> we mentioned earlier, otherwise known as <code>parameters</code>. But here, because they information being given to the <code>function</code>, ther are known as <code>arguments</code>. Hopefully it is easier to see the difference between the two now 😃 .</p>
+                        <p>As you can see, we call the <code>area</code> function but you will notice the <code>10,5</code> in the <code>()</code>. The two numbers represent the <code>length, width</code> we mentioned earlier, otherwise known as <code>parameters</code>. But here, because they are data being given to the <code>function</code> - we call them <code>arguments</code>. Hopefully it is easier to see the difference between the two now 😃 .</p>
                         
                         
-                        <p> All we are saying in the <code>invocation</code> above is, run the <code>area</code> <code>function</code> and use <code>10,5</code> as <code>arguments</code>. And as we know our function is set to multiply the two <code>arguments</code>, resulting in the output of 50. Congratulations 🎉 we created and <code>invoked</code> our first <code>function</code>.
+                        <p> All we are saying in the <code>invocation</code> above is, run the <code>area</code> <code>function</code> and use <code>10,5</code> as <code>arguments</code>. As we know our function is set to multiply the two <code>arguments</code>, resulting in the output of 50. Congratulations 🎉 we created and <code>invoked</code> our first <code>function</code>.
 
 
                         

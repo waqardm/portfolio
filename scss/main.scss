@@ -134,8 +134,8 @@ main {
     display: grid;
     grid-gap: 30px;
     grid-template-areas: 
-    'post3 post2'
-    'post1 post5';
+    'post4 post3'
+    'post2 post1';
     grid-template-columns: repeat(2, 1fr);
 
     .post-1 {

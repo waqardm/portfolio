@@ -30,9 +30,9 @@ include('../inc/header.php');
                 <p>Continue working through the curriculam on FCC which has recently been updated. I aim to finish 75% by Spring 2019</p>
             </div>
             <div class="job job2">
-                <h3>Laravel Projects</h3>
-                <h4>CRUD and APIs in Laravel Framework</h4>
-                <p>Refresh on laravel framework and create 3 applications focussing on CRUD and APIs</p>
+                <h3>React</h3>
+                <h4>Familiarising with React</h4>
+                <p>Work on understanding the React ecosystem and best usecases</p>
             </div>
             <div class="job job3">
                 <h3>Personal</h3>

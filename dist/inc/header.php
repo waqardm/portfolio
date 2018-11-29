@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/main.css"> 
+    <link rel="stylesheet" href="/css/main.css">
     <title><?php echo $title ?></title>
 </head>
 <body <?php if($page === 'home'){ echo 'id="bg-img"';} ?>> 

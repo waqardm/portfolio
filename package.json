@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/waqardm/portfolio#readme",
   "dependencies": {
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.9.3",
+    "vue-markdown": "^2.2.4"
   }
 }

@@ -13,8 +13,6 @@ include('../inc/header.php');
         <h2 class="sm-heading">
             Follow along my coding journey, thoughts, and more through my posts below.
         </h2>
-        
-        <img class="responsive" src="../img/blog/codingBytes2.png" alt="Header Image">
         <div class="article-box">
         <div class="article-info">
             <div class="post post-1">
