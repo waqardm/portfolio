@@ -12,6 +12,22 @@ include('../inc/header.php');
             Check Out Some of My Projects
         </h2>
         <div class="projects">
+            <!-- <div class="item">
+                <a href="#">
+                    <img src="../img/projects/markdown_previewer.png" alt="Project">
+                </a>
+                <a href="#" class="btn-light">Password Manager</a>
+                <a href="https://github.com/waqardm/express_pw_manager" class="btn-dark" target="_blank">
+                    <i class="fab fa-github"></i> Source</a>
+            </div> -->
+            <div class="item">
+                <a href="#">
+                    <img src="../img/projects/markdown_previewer.png" alt="Project">
+                </a>
+                <a href="#" class="btn-light">FCC Markdown Previewer</a>
+                <a href="https://codepen.io/waqarm/full/xQJMWZ/" class="btn-dark" target="_blank">
+                    <i class="fab fa-codepen"></i> Source</a>
+            </div>
             <div class="item">
                 <a href="#">
                     <img src="../img/projects/tech_doc.png" alt="Project">

@@ -134,9 +134,9 @@ main {
     display: grid;
     grid-gap: 30px;
     grid-template-areas: 
-    'post4 post3'
-    'post2 post1';
-    grid-template-columns: repeat(2, 1fr);
+    'post5 post4 post3'
+    'post2 post1 .';
+    grid-template-columns: repeat(3, 1fr);
 
     .post-1 {
         grid-area: post1;
@@ -200,6 +200,7 @@ main {
 
             .tags {
                 height: 30px;
+                margin-top: 5px;
                 width: auto;
                 padding: 3px;
                 color: white;
@@ -229,7 +230,7 @@ main {
         height: auto;
         display: block;
         margin: 0 auto;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .article-info {
@@ -338,11 +339,11 @@ main {
                 font-weight: bold;
                 margin-right: 5px;
                 text-align: center;
-                //text-transform: uppercase;
             }
 
             .post-tags {
                 background-color: #808080;
+                margin-top: 5px;
             }
         }
 
@@ -455,6 +456,7 @@ main {
     img {
         width: 100%;
         border: 3px solid #fff;
+        height: 149px;
 
         &:hover {
             opacity: 0.5;
