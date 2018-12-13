@@ -37,7 +37,7 @@ include('../inc/header.php');
                         </p>
                         
                         <h4>What is a Loop?</h4>
-                        <p>In programming <code>Loops</code> are used to perform repeated tasks based on a set condition. As an example, if we wanted to run a piece of code <code>x</code> amount of times.</p>
+                        <p>In programming, <code>Loops</code> are used to perform repeated tasks based on a set condition. As an example, if we wanted to run a piece of code <code>x</code> amount of times.</p>
 
                         <h4>'for' Loop</h4>
 
@@ -58,12 +58,12 @@ include('../inc/header.php');
 </pre>
 
                         <p>
-                            The <code>for</code> loop is the most commonly used and can be tricky to understand what is going on at first but lets break it down. Firstly, look at the <code>syntax</code>, exactly like an <code>if</code> statement. You have the <code>for</code> keyword, followed by parentheses for the conditions and the curly braces for the code that will be <code>looped</code>.
+                            The <code>for</code> loop is the most commonly used and it can be tricky to understand what is going on at first, but lets break it down. Firstly, look at the <code>syntax</code> which is like an <code>if</code> statement. You have the <code>for</code> keyword, followed by parentheses for the conditions and the curly braces for the code that will be <code>looped</code>.
                         </p>
                             
                         <p>
                          &#8594; <code>const kit = ['Sweater', 'Shorts', 'Socks', 'Ball'];</code><br>
-                         We are declaring a random array to <code>loop</code> over. Which is just another way of saying checking through / going through.
+                         We are declaring an array to <code>loop</code> over (which is just another way of saying checking through / going through).
                         </p>
                         
                         <p>
@@ -71,7 +71,7 @@ include('../inc/header.php');
                         </p>
                         
                         <p>
-                            &#8594; <code>(let i = 0; i < kit.length; i++)</code> This is where it gets a little confusing. For me, the <code>i</code> was the part which didn't click. So we can start with that. The <code>i</code> can be any letter or word, it is just used similar to a variable to indicate the element being looped.
+                            &#8594; <code>(let i = 0; i < kit.length; i++)</code> This is where it gets a little confusing. For me, the <code>i</code> was the part which didn't click. So we can start with that. The <code>i</code> can be any letter or word, it is just used similar to a variable to indicate the element in question.
                         </p>
 
                         <p>
@@ -87,15 +87,15 @@ include('../inc/header.php');
                         </p>
 
                         <p>
-                            &#8594; <code>{ console.log(kit[i]); }</code> Within the <code>loop</code> body, we are asking it to log the element on each iteration of the <code>loop</code>.
+                            &#8594; <code>{ console.log(kit[i]); }</code> Within the <code>loop</code> body, we are asking it to <code>console.log()</code> the element on each iteration of the <code>loop</code>.
                         </p>
 
                         <p>
-                           &#8594; Specifically the <code>kit[i]</code> is referring to each element of the array, where <code>kit</code> is our array and <code>[i]</code> is the pointing to the element.
+                           &#8594; Specifically the <code>kit[i]</code> is referring to each element of the array, where <code>kit</code> is our array and <code>[i]</code> is pointing to the element.
                         </p>
 
                         <p>
-                            😬 It may be a little crazy at first, but run through it a few times then try typing the example code out and watch the console for the output. There is also a <code>for/in loop</code> which we will cover in the future, enough 🤯 moments for now.
+                            😬 It may be a little crazy at first, but run through it a few times then try typing the example code out and watch the console for the output. There is also a <code>for/in loop</code> which we will cover in the future, enough 🤯 for now.
                         </p>
 
                         <h4>'while' Loop</h4>
@@ -121,10 +121,10 @@ include('../inc/header.php');
                             <code>Just be careful with ALL loops as you could end up running an endless loop if all the elements are not input correctly.</code>
                             <br>
                             <br>
-                            With the <code>while loop</code> you can see the similarities in structure and syntax. These are less common but once you've understood the <code>for loop</code> this are straightforward enough. 😉
+                            With the <code>while loop</code> you can see the similarities in structure and syntax. These are less common but once you've understood the <code>for loop</code> it should make sense enough. 😉
                         </p>
 
-                        <p>As <code>loops</code> can be awkward to get to grips with, practice as much as possible. Why not try out the task below?</p>
+                        <p>As <code>loops</code> can be awkward to get to grips with, practice as much as possible. Why not try out the tasks below?</p>
                     
                         <h4>Further Learning</h4>
                         
@@ -142,7 +142,7 @@ include('../inc/header.php');
                            2. Change the <code>for loop</code> in to a <code>while loop</code>.
                         </p>
                         <p>
-                            If you need get stuck drop me a tweet 😃. Good Luck and happy coding!
+                            If you get stuck drop me a tweet 😃. Good Luck and happy coding!
                         </p>
 
                         <p style="font-style: italic;">

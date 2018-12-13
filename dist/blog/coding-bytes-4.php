@@ -190,7 +190,7 @@ switch (day) {
 
                              <p>You can use <code>console.log()</code> for outputting your results or try <a href="https://codepen.io" target ="_blank">CodePen</a> to play around with better syntax highlighting.</p>
 
-                        <p>If you need get stuck drop me a tweet 😃. Good Luck and happy coding!</p>
+                        <p>If you get stuck drop me a tweet 😃. Good Luck and happy coding!</p>
 
                         
 
