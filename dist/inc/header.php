@@ -1,4 +1,4 @@
-<?php define('BASE_URL', 'http://localhost:8888/');?>
+<?php define('BASE_URL', 'http://lawyerscode.co.uk');?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,9 +30,9 @@
                 <li <?php if($page === 'about'){ echo 'class="nav-item current"';} else { echo 'class="nav-item"';} ?>>
                     <a href="<?php echo BASE_URL; ?>/about" class="nav-link">About Me</a>
                 </li>
-                <li <?php if($page === 'blog'){ echo 'class="nav-item current"';} else { echo 'class="nav-item"';} ?>>
+                <!-- <li <?php if($page === 'blog'){ echo 'class="nav-item current"';} else { echo 'class="nav-item"';} ?>>
                     <a href="<?php echo BASE_URL; ?>/blog" class="nav-link">Blog</a>
-                </li>
+                </li> -->
                 <li <?php if($page === 'portfolio'){ echo 'class="nav-item current"';} else { echo 'class="nav-item"';} ?>>
                     <a href="<?php echo BASE_URL; ?>/portfolio" class="nav-link">Portfolio</a>
                 </li>

@@ -1,14 +1,13 @@
 <?php 
 $title = 'Contact | Waqar Mohammad';
 $page = 'contact';
-include('inc/header.php');
+include('../inc/header.php');
  ?>
     
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
+<script src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
-    <script src="js/contact.js"></script>
+<script src="../js/contact.js"></script>
 
     <main id="contact">
         <h1 class="lg-heading">
@@ -47,4 +46,4 @@ include('inc/header.php');
             </form>
         </div>
     </main>
-<?php include('inc/footer.php'); ?>
+<?php include('../inc/footer.php'); ?>
