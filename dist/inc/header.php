@@ -1,4 +1,4 @@
-<?php define('BASE_URL', 'http://lawyerscode.co.uk');?>
+<?php define('BASE_URL', 'https://lawyerscode.co.uk');?>
 
 <!DOCTYPE html>
 <html lang="en">
